@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get '/resume' => "welcome#resume"
 
+  get '/projects' => "welcome#projects"
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
