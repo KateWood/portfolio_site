@@ -17,6 +17,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+BODY {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 IMG {
 	width: 100vw;
 }
