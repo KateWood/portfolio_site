@@ -29,3 +29,7 @@ IMG {
 .nav-pink {
 	background-color: #FF3399;
 }
+
+.nav-pink a {
+	color: #9900CC;
+}
