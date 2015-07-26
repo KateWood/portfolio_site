@@ -25,3 +25,7 @@ BODY {
 IMG {
 	width: 100vw;
 }
+
+.nav-pink {
+	background-color: #FF3399;
+}
