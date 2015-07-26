@@ -39,3 +39,9 @@ IMG {
     background-color: #FF66CC;
     color: #9900CC;
 }
+
+#respic img {
+	width: 200px;
+	float: right;
+	padding: 10px;
+}
