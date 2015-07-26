@@ -7,7 +7,6 @@ Rails.application.routes.draw do
 
   get '/resume' => "welcome#resume"
 
-  get '/projects' => "welcome#projects"
   get '/projects/1' => "welcome#tictactoe"
   get '/projects/2' => "welcome#petnet"
   get '/projects/3' => "welcome#muziqala"
