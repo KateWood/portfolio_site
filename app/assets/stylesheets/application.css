@@ -34,6 +34,7 @@ IMG {
 	color: #9900CC;
 }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.dropdown.open.active > a:hover, 
+.navbar-nav > li.dropdown.open > a {
     background-color: #FF66CC;
 }
