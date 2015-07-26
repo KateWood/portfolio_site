@@ -26,15 +26,16 @@ IMG {
 	width: 100vw;
 }
 
-.nav-pink {
+.nav-pink, .dropdown-menu {
 	background-color: #FFADD6;
 }
 
-.nav-pink a {
+.nav-pink a, .dropdown-menu li a {
 	color: #9900CC;
 }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.dropdown.open.active > a:hover, 
-.navbar-nav > li.dropdown.open > a {
+.navbar-nav > li.dropdown.open > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     background-color: #FF66CC;
+    color: #9900CC;
 }
