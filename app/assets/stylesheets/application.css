@@ -33,3 +33,7 @@ IMG {
 .nav-pink a {
 	color: #9900CC;
 }
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: #FF66CC;
+}
