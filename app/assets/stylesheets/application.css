@@ -49,6 +49,10 @@ IMG {
 	text-align: center;
 }
 
+#stripe2 {
+	height: 207vh;
+}
+
 #respic img {
 	width: 200px;
 	float: right;
