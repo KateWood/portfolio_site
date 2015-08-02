@@ -40,6 +40,15 @@ IMG {
     color: #9900CC;
 }
 
+.stripe {
+	height: 100vh;
+}
+
+#stripe1, #stripe3 {
+	background-color: black;
+	text-align: center;
+}
+
 #respic img {
 	width: 200px;
 	float: right;
