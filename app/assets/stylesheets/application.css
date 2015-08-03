@@ -20,10 +20,31 @@
 BODY {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding-top: 51px;
+	background-color: black;
 }
-
+/*
 IMG {
 	width: 100vw;
+}*/
+
+.icon {
+	height: 30px;
+}
+
+.main-img {
+	height: 40vh;
+	border-radius: 150px;
+	margin: 10vh auto;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
 }
 
 .nav-pink, .dropdown-menu {
@@ -44,12 +65,19 @@ IMG {
 	height: 100vh;
 }
 
-#stripe1, #stripe3 {
+#stripe1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#stripe3 {
 	background-color: black;
 }
 
 #stripe2 {
 	height: 207vh;
+	background-color: white;
 }
 
 #respic img {
