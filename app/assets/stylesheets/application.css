@@ -21,9 +21,13 @@ BODY {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding-top: 51px;
 }
-
+/*
 IMG {
 	width: 100vw;
+}*/
+
+.icon {
+	height: 30px;
 }
 
 .nav-pink, .dropdown-menu {
