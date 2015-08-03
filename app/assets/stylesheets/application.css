@@ -20,6 +20,7 @@
 BODY {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding-top: 51px;
+	background-color: black;
 }
 /*
 IMG {
@@ -28,6 +29,12 @@ IMG {
 
 .icon {
 	height: 30px;
+}
+
+.main-img {
+	height: 40vh;
+	border-radius: 150px;
+	margin: 10vh auto;
 }
 
 .nav-pink, .dropdown-menu {
@@ -54,6 +61,7 @@ IMG {
 
 #stripe2 {
 	height: 207vh;
+	background-color: white;
 }
 
 #respic img {
