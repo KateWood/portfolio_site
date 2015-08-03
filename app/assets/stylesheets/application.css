@@ -17,15 +17,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-BODY {
+body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding-top: 51px;
 	background-color: black;
 }
-/*
-IMG {
-	width: 100vw;
-}*/
 
 .icon {
 	height: 30px;
@@ -62,13 +58,13 @@ hr.star-primary {
 }
 
 .stripe {
-	height: 100vh;
+	min-height: 100vh;
+	text-align: center;
 }
 
 #stripe1 {
 	background-color: black;
 	color: white;
-	text-align: center;
 }
 
 #stripe3 {
