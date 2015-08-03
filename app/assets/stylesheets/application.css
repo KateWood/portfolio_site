@@ -62,13 +62,9 @@ hr.star-primary {
 	text-align: center;
 }
 
-#stripe1 {
+#stripe1, #stripe3 {
 	background-color: black;
 	color: white;
-}
-
-#stripe3 {
-	background-color: black;
 }
 
 #stripe2, #stripe4 {
