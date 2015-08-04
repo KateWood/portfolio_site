@@ -90,7 +90,7 @@ hr.star-primary {
 
 .about {
 	height: 50vh;
-	margin-top: 25vh;
+	padding-top: 25vh;
 }
 
 .about > a {
