@@ -1,3 +1,27 @@
+<nav class="nav navbar nav-pink navbar-fixed-top">
+	<div class="container-fluid">
+	<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header page-scroll">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#stripe1"><span class="icon"><%= image_tag "default.jpg", :class => "icon" %></span>  Kate Wood - Web Developer</a>
+		</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#stripe2">Portfolio</a></li>
+				<li><a href="#stripe3">About</a></li>
+				<li><a href="#stripe4">Contact</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
 <div class="stripe" id="stripe1">
 	<div class="col-lg-12 container">
 		<%= image_tag "default.jpg", :class => "img-responsive main-img" %>
@@ -10,17 +34,26 @@
 
 <div class="stripe" id="stripe2">
 	<div class="col-lg-12 container">
+		<br><br>
 		<h1>Portfolio</h1>
-		<div class="col-sm-5 portfolio-item ttt">
-		</div>
+		<%= link_to projects_1_path do %>
+			<div class="col-sm-5 portfolio-item ttt">
+			</div>
+		<% end %>
 		<div class="col-sm-2"></div>
-		<div class="col-sm-5 portfolio-item petnet">
-		</div>
-		<div class="col-sm-5 portfolio-item muziqala">
-		</div>
+		<%= link_to projects_2_path do %>
+			<div class="col-sm-5 portfolio-item petnet">
+			</div>
+		<% end %>
+		<%= link_to projects_3_path do %>
+			<div class="col-sm-5 portfolio-item muziqala">
+			</div>
+		<% end %>
 		<div class="col-sm-2"></div>
-		<div class="col-sm-5 portfolio-item applied">
-		</div>
+		<%= link_to projects_4_path do %>
+			<div class="col-sm-5 portfolio-item applied">
+			</div>
+		<% end %>
 	</div>
 </div>
 
