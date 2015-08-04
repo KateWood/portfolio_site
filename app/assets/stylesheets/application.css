@@ -61,12 +61,31 @@ hr.star-primary {
     color: #9900CC;
 }
 
-.buffer {
-	height: 10vh;
+.portfolio-item {
+	padding: 5px;
+	margin-top: 5vh;
+	height: 30vh;
+	background-size: 100%; 
 }
 
-.project > img {
-	height: 30vh;
+.ttt, .petnet {
+	margin-bottom: 10vh;
+}
+
+.ttt {
+	background-image: url('tictactoe.png');
+}
+
+.petnet {
+	background-image: url('petnet.png');
+}
+
+.muziqala {
+	background-image: url('muziqala.png');
+}
+
+.applied {
+	background-image: url('applied_meaning.png');
 }
 
 .stripe {
@@ -88,3 +107,7 @@ hr.star-primary {
 	float: right;
 	padding: 10px;
 }
+
+
+
+
