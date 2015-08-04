@@ -43,6 +43,10 @@ hr.star-primary {
     text-align: center;
 }
 
+.navbar-brand {
+	font-size: 1.5em;
+}
+
 .nav-pink, .dropdown-menu {
 	background-color: #FFADD6;
 }
@@ -55,6 +59,33 @@ hr.star-primary {
 .navbar-nav > li.dropdown.open > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     background-color: #FF66CC;
     color: #9900CC;
+}
+
+.portfolio-item {
+	padding: 5px;
+	margin-top: 5vh;
+	height: 30vh;
+	background-size: 100%; 
+}
+
+.ttt, .petnet {
+	margin-bottom: 10vh;
+}
+
+.ttt {
+	background-image: url('tictactoe.png');
+}
+
+.petnet {
+	background-image: url('petnet.png');
+}
+
+.muziqala {
+	background-image: url('muziqala.png');
+}
+
+.applied {
+	background-image: url('applied_meaning.png');
 }
 
 .stripe {
@@ -76,3 +107,7 @@ hr.star-primary {
 	float: right;
 	padding: 10px;
 }
+
+
+
+
