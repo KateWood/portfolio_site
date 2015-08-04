@@ -43,6 +43,10 @@ hr.star-primary {
     text-align: center;
 }
 
+.navbar-brand {
+	font-size: 1.5em;
+}
+
 .nav-pink, .dropdown-menu {
 	background-color: #FFADD6;
 }
