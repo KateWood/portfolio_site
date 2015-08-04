@@ -68,6 +68,10 @@ hr.star-primary {
 	background-size: 100%; 
 }
 
+.portfolio-item:hover {
+	opacity: 0.5;
+}
+
 .ttt, .petnet {
 	margin-bottom: 10vh;
 }
