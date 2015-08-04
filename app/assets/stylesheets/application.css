@@ -61,6 +61,14 @@ hr.star-primary {
     color: #9900CC;
 }
 
+.buffer {
+	height: 10vh;
+}
+
+.project > img {
+	height: 30vh;
+}
+
 .stripe {
 	min-height: 100vh;
 	text-align: center;
