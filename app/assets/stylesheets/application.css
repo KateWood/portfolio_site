@@ -96,7 +96,7 @@ hr.star-primary {
 	background-image: url('appliedmeaningprofile.png');
 }
 
-.about {
+.about, .contact {
 	height: 50vh;
 	padding-top: 25vh;
 }
