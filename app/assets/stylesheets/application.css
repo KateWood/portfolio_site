@@ -110,12 +110,12 @@ hr.star-primary {
 	text-align: center;
 }
 
-#stripe1, #stripe3 {
+#home, #about {
 	background-color: black;
 	color: white;
 }
 
-#stripe2, #stripe4 {
+#portfolio, #contact {
 	background-color: white;
 }
 
