@@ -72,6 +72,10 @@ hr.star-primary {
 	opacity: 0.5;
 }
 
+.linkpic:hover {
+	opacity: 0.5;
+}
+
 .ttt, .petnet {
 	margin-bottom: 10vh;
 }
