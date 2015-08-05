@@ -22,6 +22,16 @@ body {
 	padding-top: 51px;
 }
 
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
 .icon {
 	height: 30px;
 }
@@ -31,16 +41,6 @@ body {
 	border-radius: 150px;
 	margin: 10vh auto;
 	border: solid 10px #9900CC;
-}
-
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
 }
 
 .navbar-brand {
