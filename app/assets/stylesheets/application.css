@@ -96,7 +96,7 @@ hr.star-primary {
 	background-image: url('appliedmeaningprofile.png');
 }
 
-.about {
+.about, .contact {
 	height: 50vh;
 	padding-top: 25vh;
 }
@@ -112,6 +112,25 @@ hr.star-primary {
 .stripe {
 	min-height: 100vh;
 	text-align: center;
+}
+
+.icon-logo {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: 100%
+}
+
+.linkedin {
+	background-image: url('linkedin.png');
+}
+
+.github {
+	background-image: url('githublogo.png');
+}
+
+.ga {
+	background-image: url('galogo.png');
 }
 
 #home, #about {
