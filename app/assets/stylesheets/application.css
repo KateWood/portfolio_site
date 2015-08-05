@@ -63,7 +63,7 @@ hr.star-primary {
 
 .portfolio-item {
 	padding: 5px;
-	margin-top: 5vh;
+	margin-top: 3vh;
 	height: 30vh;
 	background-size: 100%; 
 }
@@ -77,19 +77,19 @@ hr.star-primary {
 }
 
 .ttt {
-	background-image: url('tictactoe.png');
+	background-image: url('tictactoelanding.png');
 }
 
 .petnet {
-	background-image: url('petnet.png');
+	background-image: url('petnetparent.png');
 }
 
 .muziqala {
-	background-image: url('muziqala.png');
+	background-image: url('muziqalalanding.png');
 }
 
 .applied {
-	background-image: url('applied_meaning.png');
+	background-image: url('appliedmeaningprofile.png');
 }
 
 .about {
@@ -110,12 +110,12 @@ hr.star-primary {
 	text-align: center;
 }
 
-#stripe1, #stripe3 {
+#home, #about {
 	background-color: black;
 	color: white;
 }
 
-#stripe2, #stripe4 {
+#portfolio, #contact {
 	background-color: white;
 }
 
