@@ -114,6 +114,25 @@ hr.star-primary {
 	text-align: center;
 }
 
+.icon-logo {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: 100%
+}
+
+.linkedin {
+	background-image: url('linkedin.png');
+}
+
+.github {
+	background-image: url('githublogo.png');
+}
+
+.ga {
+	background-image: url('galogo.png');
+}
+
 #home, #about {
 	background-color: black;
 	color: white;
