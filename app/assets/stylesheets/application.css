@@ -133,6 +133,10 @@ hr.star-primary {
 	background-image: url('galogo.png');
 }
 
+.purple {
+	background-color: #9900CC;
+}
+
 #home, #about {
 	background-color: black;
 	color: white;
