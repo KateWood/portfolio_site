@@ -7,11 +7,11 @@ Rails.application.routes.draw do
 
   get '/resume' => "welcome#resume"
 
-  get '/projects/1' => "welcome#tictactoe"
-  get '/projects/2' => "welcome#petnet"
-  get '/projects/3' => "welcome#muziqala"
-  get '/projects/4' => "welcome#applied_meaning"
-  get '/projects/5' => "welcome#firenza"
+  get '/projects/tictactoe' => "welcome#tictactoe"
+  get '/projects/petnet' => "welcome#petnet"
+  get '/projects/muziqala' => "welcome#muziqala"
+  get '/projects/applied_meaning' => "welcome#applied_meaning"
+  get '/projects/firenza' => "welcome#firenza"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
