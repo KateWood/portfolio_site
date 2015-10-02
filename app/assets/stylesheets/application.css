@@ -66,6 +66,7 @@ hr.star-primary {
 	margin-top: 3vh;
 	height: 30vh;
 	background-size: 100%; 
+	margin-bottom: 10vh;
 }
 
 .portfolio-item:hover {
@@ -74,10 +75,6 @@ hr.star-primary {
 
 .linkpic:hover {
 	opacity: 0.5;
-}
-
-.ttt, .petnet {
-	margin-bottom: 10vh;
 }
 
 .ttt {
@@ -94,6 +91,10 @@ hr.star-primary {
 
 .applied {
 	background-image: url('appliedmeaningprofile.png');
+}
+
+.firenza {
+	background-image: url('myfirenzafullpage.png');
 }
 
 .about, .contact {
