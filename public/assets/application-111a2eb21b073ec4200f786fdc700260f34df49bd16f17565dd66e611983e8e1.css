@@ -1,0 +1,160 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding-top: 51px;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+.icon {
+	height: 30px;
+}
+
+.main-img {
+	height: 40vh;
+	border-radius: 150px;
+	margin: 10vh auto;
+	border: solid 10px #9900CC;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+}
+
+.nav-pink, .dropdown-menu {
+	background-color: #FFADD6;
+}
+
+.nav-pink a, .dropdown-menu li a {
+	color: #9900CC;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.dropdown.open.active > a:hover, 
+.navbar-nav > li.dropdown.open > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #FF66CC;
+    color: #9900CC;
+}
+
+.portfolio-item {
+	padding: 5px;
+	margin-top: 3vh;
+	height: 30vh;
+	background-size: 100%; 
+	margin-bottom: 10vh;
+}
+
+.portfolio-item:hover {
+	opacity: 0.5;
+}
+
+.linkpic:hover {
+	opacity: 0.5;
+}
+
+.ttt {
+	background-image: url('tictactoelanding.png');
+}
+
+.petnet {
+	background-image: url('petnetparent.png');
+}
+
+.muziqala {
+	background-image: url('muziqalalanding.png');
+}
+
+.applied {
+	background-image: url('appliedmeaningprofile.png');
+}
+
+.firenza {
+	background-image: url('myfirenzafullpage.png');
+}
+
+.about, .contact {
+	height: 50vh;
+	padding-top: 25vh;
+}
+
+.about > a {
+	color: white;
+}
+
+.about > a:hover {
+	color: #9900CC;
+}
+
+.stripe {
+	min-height: 100vh;
+	text-align: center;
+	overflow: scroll;
+}
+
+.icon-logo {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: 100%
+}
+
+.linkedin {
+	background-image: url('linkedin.png');
+}
+
+.github {
+	background-image: url('githublogo.png');
+}
+
+.ga {
+	background-image: url('galogo.png');
+}
+
+.purple {
+	background-color: #9900CC;
+}
+
+#home, #about {
+	background-color: black;
+	color: white;
+}
+
+#portfolio, #contact {
+	background-color: white;
+}
+
+#respic img {
+	width: 200px;
+	float: right;
+	padding: 10px;
+}
+
+
+
+
