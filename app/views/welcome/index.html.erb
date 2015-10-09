@@ -23,67 +23,17 @@
 </nav>
 
 <div class="stripe" id="home">
-	<div class="col-lg-12 container">
-		<%= image_tag "default.jpg", :class => "img-responsive main-img" %>
-		<br>
-		<h1>Kate Wood</h1>
-		<hr class="star-light">
-		<h2>Full Stack Web Developer</h2>
-	</div>
+	<% render 'home' %>
 </div>
 
 <div class="stripe" id="portfolio">
-	<div class="col-lg-12 container">
-		<br><br>
-		<h1>Portfolio</h1>
-		<p><em>Click on a screenshot to see more information on the project</em></p>
-		<%= link_to projects_tictactoe_path do %>
-			<div class="col-sm-5 portfolio-item ttt">
-			</div>
-		<% end %>
-		<div class="col-sm-2"></div>
-		<%= link_to projects_petnet_path do %>
-			<div class="col-sm-5 portfolio-item petnet">
-			</div>
-		<% end %>
-		<%= link_to projects_muziqala_path do %>
-			<div class="col-sm-5 portfolio-item muziqala">
-			</div>
-		<% end %>
-		<div class="col-sm-2"></div>
-		<%= link_to projects_applied_meaning_path do %>
-			<div class="col-sm-5 portfolio-item applied">
-			</div>
-		<% end %>
-		<div class="col-sm-3"></div>
-		<%= link_to projects_firenza_path do %>
-			<div class="col-sm-6 portfolio-item firenza">
-			</div>
-		<% end %>
-	</div>
+	<%= render 'portfolio' %>
 </div>
 
 <div class="stripe" id="about">
-	<div class="col-lg-12 container about">
-		<h1>About Me</h1>
-		<hr class="star-light">
-		<h3> My background in both comedy writing and customer service gives me a unique perspective on how to build an app. Comedy writing is fun and creative, but follows formatting rules, much like coding, so I know how to "draw inside the lines" without being boring. I use my comedy experience to build full stack Ruby on Rails apps.</h3>
-		<hr class="star-light">
-		<%= link_to "View my resume", resume_path %>
-	</div>
+	<%= render 'aboutme' %>
 </div>
 
 <div class="stripe" id="contact">
-	<div class="col-lg-12 container contact">
-		<br><br>
-		<h2>Contact Me!</h2>
-		<br>
-		<h4><span class="glyphicon glyphicon-envelope"></span> <%= mail_to 'katekodes@gmail.com', 'Email' %></h4>
-		<br>
-		<h4><span class="icon-logo linkedin"></span> <%= link_to 'LinkedIn Profile', 'https://www.linkedin.com/in/katewood611' %></h4>
-		<br>
-		<h4><span class="icon-logo github"></span> <%= link_to 'GitHub Profile', 'https://github.com/KateWood' %></h4>
-		<br>
-		<h4><span class="icon-logo ga"></span> <%= link_to 'GA Profile', 'https://profiles.generalassemb.ly/katewood' %></h4>
-	</div>
+	<% render 'contact' %>
 </div>
