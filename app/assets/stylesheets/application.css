@@ -113,6 +113,7 @@ hr.star-primary {
 .stripe {
 	min-height: 100vh;
 	text-align: center;
+	overflow: scroll;
 }
 
 .icon-logo {
