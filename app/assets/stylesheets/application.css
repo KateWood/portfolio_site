@@ -139,6 +139,10 @@ hr.star-primary {
 	background-color: #9900CC;
 }
 
+.link, .link:hover {
+	color: black;
+}
+
 #home, #about {
 	background-color: black;
 	color: white;
