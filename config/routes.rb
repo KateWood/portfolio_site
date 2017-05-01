@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get '/projects/muziqala' => "welcome#muziqala"
   get '/projects/applied_meaning' => "welcome#applied_meaning"
   get '/projects/firenza' => "welcome#firenza"
+  get '/projects/react_cats' => "welcome#react_cats"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
