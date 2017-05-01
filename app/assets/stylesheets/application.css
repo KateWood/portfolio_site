@@ -55,7 +55,7 @@ hr.star-primary {
 	color: #9900CC;
 }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.dropdown.open.active > a:hover, 
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li.dropdown.open.active > a:hover,
 .navbar-nav > li.dropdown.open > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     background-color: #FF66CC;
     color: #9900CC;
@@ -65,7 +65,7 @@ hr.star-primary {
 	padding: 5px;
 	margin-top: 3vh;
 	height: 30vh;
-	background-size: 100%; 
+	background-size: 100%;
 	margin-bottom: 10vh;
 }
 
@@ -95,6 +95,10 @@ hr.star-primary {
 
 .firenza {
 	background-image: url('myfirenzafullpage.png');
+}
+
+.cats {
+	background-image: url('cat.png');
 }
 
 .about, .contact {
@@ -157,7 +161,3 @@ hr.star-primary {
 	float: right;
 	padding: 10px;
 }
-
-
-
-
